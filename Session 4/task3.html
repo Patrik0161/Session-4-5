@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript - Football</title>
+</head>
+
+<body>
+
+<h1>JavaScript Object</h1>
+<p id="display"></p>
+
+<script>
+var course = {
+  courseName: "Football at higher level-Professional",
+  courseCode: "CR26895-01",
+  numYears: 2,
+  qual: "Extended Professional Football Diploma"
+};
+
+document.getElementById("display").innerHTML =
+"Course Name: " + course.courseName + "<br>"
++ " The code for this code is " + course.courseCode + ". " +
+"The full qualification title is " + course.qual + ", and it runs for "
++ course.numYears + " years."
+</script>
